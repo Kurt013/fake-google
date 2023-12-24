@@ -1,0 +1,31 @@
+@media only screen and (width < 599px) {
+.floating-section > .customizeButton {
+    display: none;
+  }
+}
+
+.floating-section > * {
+  font-size: 12px;
+  color: rgb(110, 175, 248);
+}
+
+.floating-section {
+  border: none;
+  background-color: #10427bff;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 20px;
+  padding-left: 14px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.floating-section:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}

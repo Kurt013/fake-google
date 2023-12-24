@@ -1,0 +1,75 @@
+.main-interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.googleText {
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+.search-box {
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 70%;
+  max-width: 550px;
+  box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.search {
+  outline: none;
+  border: none;
+  font-size: 17px;
+  flex: 1;
+  height: 45px;
+  width: 0;
+}
+
+.bx-search {
+  color: gray;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.bxs-microphone,
+.bxs-camera {
+  color: rgb(148, 148, 255);
+}
+
+.addShortcut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.addShortcut:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.bx-plus {
+  border: none;
+  border-radius: 100%;
+  background-color: #10427bff;
+  padding: 11px;
+}
+
+.shortcut {
+  font-size: 13px;
+  margin-top: 16px;
+}
+
