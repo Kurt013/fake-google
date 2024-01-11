@@ -1,0 +1,408 @@
+/* First Section */
+.barangay-description {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/pinagsama-landmark.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 31em;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5em;
+}
+
+.barangay-description {
+  position: relative;
+}
+
+.vic-image {
+  height: 25em;
+  border-radius: 10em;
+}
+
+.name {
+  position: absolute;
+  bottom: 4.5em;
+  left: 20em;
+}
+
+.name > * {
+  margin: 0;
+}
+
+/* Second Section */
+.barangay-details {
+  margin-left: 2em;
+  padding-left: 0.5em;
+  border-left: 0.2em solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content {
+  margin-top: 0.5em;
+}
+
+.learn-more {
+  color: white;
+  background-color: var(--red);
+  border: none;
+  margin-top: 0.8em;
+  font-size: 1em;
+  padding: 1em 2.5em;
+  font-family: 'Source Sans 3';
+  width: 30%;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.learn-more:hover {
+  background-color: white;
+  color: var(--red);
+}
+
+.bxs-right-arrow-circle {
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2em;
+  column-gap: 1em;
+  height: 20em;
+  overflow: hidden;
+}
+
+.board div > * {
+  text-align: justify;
+}
+
+.mission-block {
+  background-image: url(/images/mission.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.vision-block {
+  background-image: url(/images/vision.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.mission, .vision {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 1em;
+  transition: opacity 1s;
+}
+
+.mission:hover, .vision:hover {
+  cursor: default;
+  opacity: 0;
+}
+
+/* Third Section */
+.list-candidates h2 {
+  font-size: 3rem;
+  font-family: 'Source Sans 3';
+  text-align: center;
+}
+
+.list-candidates > h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.official-punong-barangay .candidates {
+  margin: auto;
+  margin-bottom: 4em;
+}
+
+.officials-kagawad {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  column-gap: 1em;
+  row-gap: 4em;
+  margin: 0 4em 4em;
+  place-items: center;
+  text-align: center;
+}
+
+.candidates {
+  height: 16em;
+  width: 13em;
+  position: relative;
+}
+
+.vic-image-2 {
+  border-radius: 1em;
+  height: 16em;
+  width: 13em;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+.kagawad-images {
+  border-radius: 1em;
+  height: 16em;
+  width: 13em;
+  object-fit: cover;
+  object-position: top;
+}
+
+.container {
+  white-space: nowrap;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+  position: absolute;
+  bottom: -1.3em;
+  right: -1em;
+  background-color: var(--red);
+  box-shadow: 0.3em 0.3em 0.1em rgba(0, 0, 0, 0.5)
+}
+
+.container > * {
+  margin: 0;
+  text-align: left;
+}
+
+/*
+ABOUT SECTION
+*/
+.about-pinagsama {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-red);
+  background-position: bottom;
+  row-gap: 1em;
+  padding: 1em 0;
+}
+
+.about, .history {
+  background-color: var(--red);
+  display: grid;
+  grid-template-columns: 30em 30em;
+  border-radius: 1.5em;
+  padding: 1em;
+  height: 25em;
+  column-gap: 1em;
+  place-items: center;
+}
+
+.wrapper h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.wrapper * {
+  text-align: justify;
+}
+
+.about-image {
+  width: 30em;
+  height: 23em;
+  object-fit: cover;
+  object-position: 0 -140px;
+}
+
+.history-image {
+  width: 30em;
+  height: 23em;
+  object-fit: cover;
+}
+
+.additional-info {
+  display: flex;
+  column-gap: 1.5em;
+  padding: 1em;
+}
+
+.tourist-spot img {
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
+
+.pinagsama-map iframe {
+  height: 20em;
+}
+
+.additional-info div div h3 {
+  text-align: center;
+}
+
+/*Updates Section*/
+.update-section {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(/images/update.webp);
+  height: 20em;
+  padding: 2em 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+
+.update-section div {
+  width: 40em;
+}
+
+.wrapper h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.visit-us {
+  font-family: 'Source Sans 3';
+  margin-top: 1.5em;
+  padding: 0.8em 3em;
+  background-color: var(--red);
+  border: none;
+  color: white;
+  font-size: 1em;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.visit-us:hover {
+  background-color: white;
+  color: var(--red);
+}
+
+.latest-updates {
+  height: 20em;
+  display: grid;
+  grid-template-columns: 15em 15em 15em 15em;
+  column-gap: 1em;
+  place-content: center;
+}
+
+.article-box {
+  position: relative;
+  height: 15em;
+  background-color: var(--dark-red);
+  padding: 0.5em;
+  text-align: center;
+}
+
+.view-more-box {
+  border: none;
+  color: white;
+  margin-top: 1em;
+  background-color: var(--red);
+  padding: 1em 3.5em;
+  transition: background-color 0.15s,
+    color 0.15s;
+  position: absolute;
+  bottom: 2em;
+  left: 5em;
+}
+
+.view-more-box:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--red);
+}
+
+/*Services Section*/
+
+.services {
+  display: flex;
+  align-items: center;
+  height: 20em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/background-pinagsama.jpg);
+  background-size: cover;
+}
+
+.services div {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2em 3em;
+}
+
+.services-images {
+  display: grid;
+  grid-template-columns: 20em 20em;
+  padding: 2em;
+  gap: 2em;
+  place-content: center;
+}
+
+.image {
+  height: 15em;
+  width: 20em;
+}
+
+.one {
+  background-image: url(/images/cleanUp-drive.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.two {
+  background-image: url(/images/barangayFire-rescueTeam.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.three {
+  background-image: url(/images/ambulance-medic.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.four {
+  background-image: url(/images/peace-order.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.five {
+  background-image: url(/images/CSWDO-services.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.six {
+  background-image: url(/images/scheduled-medical-mission.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 1s;
+}
+
+.image-block h3 {
+  cursor: default;
+  font-family: 'Source Sans 3';
+  font-size: 2em;
+  border-left: 0.1em solid white;
+  padding-left: 1em;
+  margin-left: 0.8em;
+}
+
+.image-block:hover {
+  opacity: 0;
+}
+

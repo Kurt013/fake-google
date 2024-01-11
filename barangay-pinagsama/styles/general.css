@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #1C2826;
+  --orange: #F9A620;
+  --yellow: #FFD449;
+  --red: #C1292E;
+  --pink: #DA667B;
+  --dark-red: #921f23;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  color: white;
+  background-color: var(--red);
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  /* background-color: var(--pink); */
+  scroll-padding-top: 5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
